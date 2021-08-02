@@ -796,6 +796,22 @@ blockquote {
   width: 80px;
 }
 
+
+.author-photo {
+  position: relative;
+  margin: 20px auto;
+  max-width: 200px;
+  text-align: center;
+  z-index: 0;
+}
+
+.author-photo img {
+  height: 200px;
+  max-height: 200px;
+  width: 200px;
+}
+
+
 .site-title-block {
   position: relative;
   z-index: 1;
@@ -3287,6 +3303,7 @@ blockquote p {
 
 .start-page .section-inner {
   background-color: transparent;
+  background-image: url(../images/kerge_start_page_1.jpg);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-attachment: fixed;
